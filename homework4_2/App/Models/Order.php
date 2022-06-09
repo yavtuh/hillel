@@ -1,6 +1,6 @@
 <?php 
-namespace App\Models;
-class User{
+namespace Models;
+class Order{
     public function __construct()
     {
         echo __CLASS__;

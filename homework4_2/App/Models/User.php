@@ -1,6 +1,6 @@
 <?php 
-namespace App\Http\Controllers\Admin;
-class DashboardController{
+namespace Models;
+class User{
     public function __construct()
     {
         echo __CLASS__;

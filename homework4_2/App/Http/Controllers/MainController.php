@@ -1,6 +1,6 @@
 <?php 
-namespace App\Http\Helpers;
-class ImageHelper{
+namespace Http\Controllers;
+class MainController{
     public function __construct()
     {
         echo __CLASS__;

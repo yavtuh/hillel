@@ -1,6 +1,6 @@
 <?php 
-namespace App\Models;
-class Order{
+namespace Models;
+class Product{
     public function __construct()
     {
         echo __CLASS__;

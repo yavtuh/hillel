@@ -1,6 +1,6 @@
 <?php 
-namespace App\Http\Controllers;
-class MainController{
+namespace Http\Controllers\Admin;
+class DashboardController{
     public function __construct()
     {
         echo __CLASS__;
