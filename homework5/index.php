@@ -1,8 +1,8 @@
 <?php
 class User{
-    private int $id;
-    private int $password;
-    private int $email;
+    private  $id;
+    private  $password;
+    private  $email;
 
     private function set_id($id)
     {
