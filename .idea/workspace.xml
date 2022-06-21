@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c508e520-66f1-43da-8618-fa12d9501492" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/homework6/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework5/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +24,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/kacbo.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,6 +44,7 @@
       <workItem from="1653064239254" duration="1205000" />
       <workItem from="1653409082825" duration="1513000" />
       <workItem from="1653896523367" duration="4325000" />
+      <workItem from="1655212321989" duration="8054000" />
     </task>
     <servers />
   </component>
@@ -51,13 +56,21 @@
       <screen x="0" y="0" width="1676" height="896" />
     </state>
     <state x="551" y="90" key="#PHP/0.0.1676.896@0.0.1676.896" timestamp="1653896538409" />
+    <state x="429" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1655791471413">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state x="429" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.896@0.0.1676.896" timestamp="1655791471413" />
     <state x="601" y="210" key="FileChooserDialogImpl" timestamp="1654106429937">
       <screen x="0" y="0" width="1676" height="896" />
     </state>
     <state x="601" y="210" key="FileChooserDialogImpl/0.0.1676.896@0.0.1676.896" timestamp="1654106429937" />
-    <state x="255" y="374" key="NewPhpFileDialog" timestamp="1653409380148">
+    <state x="255" y="374" key="NewPhpFileDialog" timestamp="1655212398592">
       <screen x="0" y="0" width="1676" height="896" />
     </state>
-    <state x="255" y="374" key="NewPhpFileDialog/0.0.1676.896@0.0.1676.896" timestamp="1653409380148" />
+    <state x="255" y="374" key="NewPhpFileDialog/0.0.1676.896@0.0.1676.896" timestamp="1655212398592" />
+    <state x="346" y="92" key="SettingsEditor" timestamp="1655751774134">
+      <screen x="0" y="0" width="1676" height="896" />
+    </state>
+    <state x="346" y="92" key="SettingsEditor/0.0.1676.896@0.0.1676.896" timestamp="1655751774134" />
   </component>
 </project>
