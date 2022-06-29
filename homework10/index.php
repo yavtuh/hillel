@@ -1,63 +1,65 @@
 <?php
-interface Money
-{
-    public function amount();
-}
 
-class Btc implements Money
+interface Pay
 {
-    public function amount()
-    {
-    }
+    public function getAmount();
 }
-
-class Usd implements Money
+abstract class PayMethod
 {
-    public function amount()
+    abstract public function newPay(): Pay;
+
+    public function totalPay()
     {
+        $Pay = $this->newPay();
+        return $Pay->getAmount();
     }
 }
-
-class Visa
+class Crypto implements Pay
 {
-    public function pay()
+    private int $amount;
+
+    public function __construct($amount)
     {
+        $this->amount = $amount;
+    }
+    public function getAmount(): int
+    {
+        return $this->amount;
     }
 }
-
-class Crypto
+class Debit implements Pay
 {
-    public function convert()
+    private int $amount;
+    public function __construct($amount)
     {
+        $this->amount = $amount;
+    }
+    public function getAmount(): int
+    {
+        return $this->amount;
     }
 }
-
-
-class CryptoAdapter implements Money
+class CoinbasePayMethod extends PayMethod
 {
-    protected $money;
-
-    public function __construct(Crypto $money)
+    private int $amount;
+    public function __construct($amount)
     {
-        $this->money = $money;
+        $this->amount = $amount;
     }
-
-    public function amount()
+    public function newPay(): Pay
     {
-        $this->money->convert();
+        return new Crypto($this->amount);
     }
 }
-class DebitAdapter implements Money
+class LiqPayMeyhod extends PayMethod
 {
-    protected $money;
-
-    public function __construct(Visa $money)
+    private int $amount;
+    public function __construct($amount)
     {
-        $this->money = $money;
+        $this->amount = $amount;
     }
-
-    public function amount()
+    public function newPay(): Pay
     {
-        $this->money->pay();
+        return new Debit($this->amount);
     }
 }
